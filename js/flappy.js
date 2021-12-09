@@ -25,6 +25,7 @@ function FlappyBird() {
             passaro.animar()
             if(colidiu(passaro, barreiras)) {
                 clearInterval(temporizador)
+                alert('Game Over!')
             }
         }, 20)
     }
