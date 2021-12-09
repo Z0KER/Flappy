@@ -40,3 +40,10 @@ footer {
     background-color: deepskyblue;
     overflow: hidden;
 }
+
+@media screen and (min-width: 1920px) {
+    [wm-flappy] {
+        height: 700px;
+        width: 1200px;
+    }
+}

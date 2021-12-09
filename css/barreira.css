@@ -27,3 +27,12 @@
     border-left: 2px solid #000;
     border-right: 2px solid #000;
 }
+
+@media screen and (min-width: 1920px) {
+    .barreira .borda {
+        width: 130px;
+    }
+    .barrei .corpo {
+        width: 110px;
+    }
+}
