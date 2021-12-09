@@ -11,12 +11,17 @@ function Passaro(alturaJogo) {
     window.onkeyup = e => tecla = 0
 
     this.animar = () => {
-        let novoY
+        let novoY, dY
+        if(window.screen.width >= 1920) {
+            dY = 8
+        } else {
+            dY = 7
+        }
         if (tecla == 38) {
-            novoY = this.getY() + 8
+            novoY = this.getY() + dY
         }
         if(tecla == 40) {
-            novoY = this.getY() -8
+            novoY = this.getY() - dY
         }
        
         const alturaMaxima = alturaJogo - this.elemento.clientHeight
