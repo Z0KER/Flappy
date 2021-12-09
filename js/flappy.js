@@ -26,6 +26,7 @@ function FlappyBird() {
             if(colidiu(passaro, barreiras)) {
                 clearInterval(temporizador)
                 alert('Game Over!')
+                window.location.href='index.html'
             }
         }, 20)
     }
