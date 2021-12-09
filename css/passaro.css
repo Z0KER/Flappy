@@ -1,0 +1,5 @@
+.passaro {
+    position: absolute;
+    width: 40px;
+    left: calc(50% - 20px);
+}
